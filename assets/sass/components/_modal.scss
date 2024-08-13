@@ -1,0 +1,43 @@
+.modal {
+    display: none;
+    // position: fixed;
+    // z-index: 1; 
+    // padding-top: 200px;
+    // left: 0;
+    // top: 0;
+    width: 50%; 
+    height: 50%; 
+    overflow: auto; 
+    background-color: white !important;
+  }
+
+  .contenido-modal {
+    // position: relative; /* Relativo con respecto al contenedor -modal- */
+    // margin: auto; /* Centrada */
+    // padding: 20px;
+    // width: 60%;
+    -webkit-animation-name: animarsuperior;
+    -webkit-animation-duration: 0.5s;
+    animation-name: animarsuperior;
+    animation-duration: 0.5s
+  }
+
+//   @keyframes animarsuperior {
+//     from {top:-300px; opacity:0}
+//     to {top:0; opacity:1}
+//   }
+
+  
+
+  .close {
+    color: black;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }

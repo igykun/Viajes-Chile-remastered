@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+      src="https://kit.fontawesome.com/b1ea5d1f2a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="shortcut icon" href="assets/img/viajes.svg" type="image/x-icon">
+    <title>Viajes Chile</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <!-- Header, aca esta el navbar y el carrusel de imagenes chistosas encerradas en un container para el margen -->
+
+    <header id="Inicio" class="header w-75 mx-auto">
+        <nav class="header__navb navbar navbar-expand-lg navbar-dark w-75 mx-auto fixed-top">
+            <div class="header__navb--wrapper container-fluid px-5">
+                <a class="navbar-brand" href="#">
+                <img src="./assets/img/viajes.svg" alt="Logo pagina" width="30" height="24" class="header__logo d-inline-block align-text-top">
+                Viajes Chile
+                </a>
+                <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div
+          class="collapse navbar-collapse"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="header__navi nav-item">
+              <a class="header__navlink nav-link text-white" href="#Inicio">Inicio</a>
+            </li>
+            <li class="header__navi nav-item">
+              <a class="header__navlink nav-link text-white d-none d-ms-block d-lg-block" href="#Descripcion">Quienes somos</a>
+            </li>
+            <li class="header__navi nav-item">
+              <a class="header__navlink nav-link text-white" href="#Destacados">Destacados</a>
+            </li>
+            <li class="header__navi nav-item">
+              <a class="header__navlink nav-link text-white" href="#Testimonios">Testimonios</a>
+            </li>
+            <li class="header__navi nav-item">
+              <a class="header__navlink nav-link text-white" href="#Contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+        </nav>
+        <div id="Carousel-main" class="header__carousel carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="./assets/img/carousel1.jpg"
+          class="header__carousel--item d-block w-100"
+          alt="Carrusel-1"
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="./assets/img/carousel2.jpg"
+          class="header__carousel--item d-block w-100"
+          alt="Carrusel-2"
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="./assets/img/carousel3.jpg"
+          class="header__carousel--item d-block w-100"
+          alt="Carrusel-3"
+        />
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev header__carousel--button"
+      type="button"
+      data-bs-target="#Carousel-main"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next header__carousel--button"
+      type="button"
+      data-bs-target="#Carousel-main"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+        </div>
+    </header>
+
+    <!-- seccion "QuienesSomos"  -->
+
+    <section id="Descripcion" class="aboutus container w-75 mx-auto my-3">
+        <h4 class="aboutus__title text-center my-3">¿QUIÉNES SOMOS?</h2>
+          <hr class="bar">
+        <div class="aboutus__row row">
+          <div class="aboutus__left col-md-6 d-none d-ms-block d-lg-block">
+            <img src="./assets/img/quienes-somos.jpg" alt="gente conversando" class="aboutus__img" height="100%" width="100%">
+          </div>
+          <div class="aboutus__right col-12 col-md-6">
+            <p class="aboutus__text my-2">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias
+              porro quis officiis libero distinctio maxime dicta obcaecati soluta
+              eius. Reiciendis soluta totam numquam quasi laudantium excepturi
+              consequuntur aperiam rem explicabo?
+            </p>
+            <p class="aboutus__text my-2">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus at aut fugit sunt harum animi ratione tempore autem, dicta necessitatibus? Impedit deleniti neque dolores, obcaecati laboriosam eveniet harum saepe assumenda?
+            </p>
+          </div>
+        </div>
+      </section>
+  
+      <!-- seccion destacados, el id esta en español para que quede igual al texto del menu del navbar -->
+      <section id="Destacados" class="featured w-75 mx-auto my-5">
+        <h4 class="featured__title text-center my-3">DESTACADOS</h4>
+        <hr class="bar text-white">
+        <div class="featured__wrapper container">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./assets/img/card1.jpg" class="img-fluid rounded-start h-100" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Region de los lagos</h5>
+                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum blanditiis modi in totam maiores incidunt, inventore iste error dignissimos tempora! Quaerat nihil ullam sed illum maxime eos harum pariatur quod?</p>
+                      <p class="card-text d-flex justify-content-between"><small class="text-body-secondary"><i class="fa-solid fa-plane"></i> Vuelos desde</small><span>$159.990</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./assets/img/card2.jpg" class="img-fluid rounded-start h-100" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Desierto de Atacama</h5>
+                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum blanditiis modi in totam maiores incidunt, inventore iste error dignissimos tempora! Quaerat nihil ullam sed illum maxime eos harum pariatur quod?</p>
+                      <p class="card-text d-flex justify-content-between"><small class="text-body-secondary"><i class="fa-solid fa-plane"></i> Vuelos desde</small><span>$189.990</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./assets/img/card3.jpg" class="img-fluid rounded-start h-100" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Norte grande de Chile</h5>
+                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum blanditiis modi in totam maiores incidunt, inventore iste error dignissimos tempora! Quaerat nihil ullam sed illum maxime eos harum pariatur quod?</p>
+                      <p class="card-text d-flex justify-content-between"><small class="text-body-secondary"><i class="fa-solid fa-plane"></i> Vuelos desde</small><span>$289.990</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./assets/img/card4.jpg" class="img-fluid rounded-start h-100" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Bosque magico</h5>
+                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum blanditiis modi in totam maiores incidunt, inventore iste error dignissimos tempora! Quaerat nihil ullam sed illum maxime eos harum pariatur quod?</p>
+                      <p class="card-text d-flex justify-content-between"><small class="text-body-secondary"><i class="fa-solid fa-plane"></i> Vuelos desde</small><span>$259.990</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+      
+      <!-- seccion testimonios, aun no se como hacerla pero si lo logro cambio este mensaje -->
+       <section id="Testimonios" class="opinions container w-75 mx-auto">
+          <h2 class="opinions__title text-center">
+            Testimonios
+          </h2>
+          <hr>
+          <div class="opinions__wrapper">
+            <div class="opinions__row row">
+              <div class="col-12 col-md-4 d-flex flex-column justify-content-center align-items-center p-2">
+                <p class="opinions__text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi corrupti consectetur, aliquam cumque pariatur eos exercitationem, soluta laudantium quae quia ducimus veritatis nihil necessitatibus, delectus consequatur? At sit labore commodi?
+                </p>
+                <img src="./assets/img/testimonio1.jpg" alt="" class="opinions__img rounded-circle" height="35rem" width="35rem">
+                <h3 class="opinions__name text-center">
+                  Mariela
+                </h3>
+              </div>
+              <div class="col-12 col-md-4 d-flex flex-column justify-content-center align-items-center p-2">
+                <p class="opinions__text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi corrupti consectetur, aliquam cumque pariatur eos exercitationem, soluta laudantium quae quia ducimus veritatis nihil necessitatibus, delectus consequatur? At sit labore commodi?
+                </p>
+                <img src="./assets/img/testimonio2.jpg" alt="" class="opinions__img rounded-circle" height="35rem" width="35rem">
+                <h3 class="opinions__name text-center">
+                  Christian
+                </h3>
+              </div>
+              <div class="col-12 col-md-4 d-flex flex-column justify-content-center align-items-center p-2">
+                <p class="opinions__text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi corrupti consectetur, aliquam cumque pariatur eos exercitationem, soluta laudantium quae quia ducimus veritatis nihil necessitatibus, delectus consequatur? At sit labore commodi?
+                </p>
+                <img src="./assets/img/testimonio3.jpg" alt="" class="opinions__img rounded-circle" height="35rem" width="35rem">
+                <h3 class="opinions__name text-center">
+                 Fernanda
+                </h3>
+              </div>
+            </div>
+          </div>
+       </section>
+
+       <!-- seccion footer, es bonito mas no funcional, lo arreglare en un ratito mas -->
+       <footer id="Contacto" class="contact container w-75 mx-auto">
+        <div class="contact__row row">
+            <h3 class="contact__title text-start text-md-center my-3 fw-bolder">
+                Contactame
+            </h3>
+            <hr>
+            <div class="contact__left col-12 col-md-6">
+                <form action="" class="contact__form">
+                    <div class="row my-2">
+                        <div class="col-6">
+                            <input type="text" placeholder="Nombre" class="contact__input form-control">
+                        </div>
+                        <div class="col-6">
+                            <input type="text" placeholder="Apellido" class="contact__input form-control">
+                        </div>
+                    </div>
+                    <textarea name="Mensaje" id="Mensaje-contact" placeholder="Escribe tu mensaje" class="contact__input bg-white form-control my-2"></textarea>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                      <label class="form-check-label" for="flexCheckChecked">
+                        <a href="#abrirModal" id="abrirModal">
+                          Acepto los terminos y condiciones
+                        </a>
+                      </label>
+                      </div>
+                    <button type="submit" class="btn btn-primary contact__button w-md-25 w-100 text-white my-2">Enviar</button>
+                      
+                <div id="ventanaModal" class="modal">
+                  <div class="modal-content">
+                      <span class="cerrar">&times;</span>
+                      <h2 class="bg-white">Terminos y condiciones</h2>
+                      <p class="bg-white">Si nadie los va a leer</p>
+                      <p class="bg-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, alias aut, aperiam rerum placeat obcaecati porro ad quaerat nemo velit harum? Tempore ad ratione magnam minima porro minus dicta necessitatibus?</p>
+                      <p class="bg-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quis vel maxime animi eligendi enim? Odio consequatur molestiae repellendus quae corrupti. Voluptas itaque rem nihil optio consequatur eligendi mollitia nulla?</p>
+                  </div>
+                </div>
+                  </form>
+            </div>
+            <div class="contact__right col-12 col-md-6">
+                <div class="contact__RRSS row">
+                    <div class="col-12 d-flex align-items-center justify-content-start my-2">
+                        <i class="contact__icon fa-solid fa-phone"></i>
+                        <p class="contact__RRSS--text my-auto mx-2 fw-bold">+569 2123 6566</p>
+                    </div>
+                    <div class="col-12 d-flex align-items-center justify-content-start my-2">
+                        <i class="contact__icon fa-solid fa-envelope"></i>
+                        <p class="contact__RRSS--text my-auto mx-2 fw-bold">miemail@correo.cl</p>
+                    </div>
+                    <div class="col-12 d-flex align-items-center justify-content-start my-2">
+                        <i class="contact__icon fa-brands fa-linkedin"></i>
+                        <p class="contact__RRSS--text my-auto mx-2 fw-bold">milinkedin</p>
+                    </div>
+                    <div class="col-12 d-flex align-items-center justify-content-start my-2">
+                        <i class="contact__icon fa-brands fa-github"></i>
+                        <p class="contact__RRSS--text my-auto mx-2 fw-bold">Mi Github</p>
+                    </div>
+                    <div class="col-12 d-flex align-items-center justify-content-start my-2">
+                        <i class="contact__icon fa-brands fa-instagram"></i>
+                        <p class="contact__RRSS--text my-auto mx-2 fw-bold">Mi Instagram</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
