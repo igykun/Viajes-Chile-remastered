@@ -15,7 +15,7 @@
     <!-- Header, aca esta el navbar y el carrusel de imagenes chistosas encerradas en un container para el margen -->
 
     <header id="Inicio" class="header w-75 mx-auto">
-        <nav class="header__navb navbar navbar-expand-lg navbar-dark w-75 mx-auto fixed-top">
+        <nav class="header__navb navbar navbar-expand-lg navbar-dark w-75 mx-auto fixed-top w-m">
             <div class="header__navb--wrapper container-fluid px-5">
                 <a class="navbar-brand" href="#">
                 <img src="./assets/img/viajes.svg" alt="Logo pagina" width="30" height="24" class="header__logo d-inline-block align-text-top">
@@ -36,7 +36,7 @@
           class="collapse navbar-collapse"
           id="navbarSupportedContent"
         >
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav ms-sm-auto mb-2 mb-lg-0">
             <li class="header__navi nav-item">
               <a class="header__navlink nav-link text-white" href="#Inicio">Inicio</a>
             </li>
@@ -56,8 +56,8 @@
         </div>
       </div>
         </nav>
-        <div id="Carousel-main" class="header__carousel carousel slide">
-    <div class="carousel-inner">
+        <div id="Carousel-main" class="header__carousel carousel slide container-fluid">
+          <div class="carousel-inner">
       <div class="carousel-item active">
         <img
           src="./assets/img/carousel1.jpg"
@@ -79,8 +79,8 @@
           alt="Carrusel-3"
         />
       </div>
-    </div>
-    <button
+          </div>
+          <button
       class="carousel-control-prev header__carousel--button"
       type="button"
       data-bs-target="#Carousel-main"
@@ -88,8 +88,8 @@
     >
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
-    </button>
-    <button
+          </button>
+          <button
       class="carousel-control-next header__carousel--button"
       type="button"
       data-bs-target="#Carousel-main"
@@ -97,28 +97,25 @@
     >
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
-    </button>
+          </button>
         </div>
     </header>
 
     <!-- seccion "QuienesSomos"  -->
 
     <section id="Descripcion" class="aboutus container w-75 mx-auto my-3">
-        <h4 class="aboutus__title text-center my-3">¿QUIÉNES SOMOS?</h2>
+        <h4 class="aboutus__title text-center my-3">¿QUIÉNES SOMOS?</h4>
           <hr class="bar">
         <div class="aboutus__row row">
-          <div class="aboutus__left col-md-6 d-none d-ms-block d-lg-block">
+          <div class="aboutus__left col-12 col-md-6 d-none d-ms-block d-lg-block">
             <img src="./assets/img/quienes-somos.jpg" alt="gente conversando" class="aboutus__img" height="100%" width="100%">
           </div>
-          <div class="aboutus__right col-12 col-md-6">
-            <p class="aboutus__text my-2">
+          <div class="aboutus__right col col-md-6">
+            <p class="aboutus__text p-4">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias
               porro quis officiis libero distinctio maxime dicta obcaecati soluta
               eius. Reiciendis soluta totam numquam quasi laudantium excepturi
               consequuntur aperiam rem explicabo?
-            </p>
-            <p class="aboutus__text my-2">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus at aut fugit sunt harum animi ratione tempore autem, dicta necessitatibus? Impedit deleniti neque dolores, obcaecati laboriosam eveniet harum saepe assumenda?
             </p>
           </div>
         </div>
@@ -297,7 +294,7 @@
                     </div>
                     <div class="col-12 d-flex align-items-center justify-content-start my-2">
                         <i class="contact__icon fa-brands fa-instagram"></i>
-                        <p class="contact__RRSS--text my-auto mx-2 fw-bold">Mi Instagram</p>
+                        <p class="contact__RRSS--text mx-2 my-auto fw-bold">Mi Instagram</p>
                     </div>
                 </div>
             </div>
